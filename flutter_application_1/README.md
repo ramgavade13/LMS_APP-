@@ -1,16 +1,54 @@
-# flutter_application_1
+# 📚 Library Management System (LMS)
 
-A new Flutter project.
+A full-stack Library Management System built with Flutter & Flask.
 
-## Getting Started
+## 🛠️ Tech Stack
 
-This project is a starting point for a Flutter application.
+- **Frontend:** Flutter (Mobile App)
+- **Backend:** Flask (Python REST API)
+- **Database:** MySQL
 
-A few resources to get you started if this is your first Flutter project:
+## 👥 User Roles
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔴 Admin — Books add/manage करतो
+- 🟡 Teacher — Books issue/return करतो
+- 🟢 Student — Books search/issue/return करतो
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
+
+- ✅ Signup & Login (JWT Authentication)
+- ✅ Role-based Dashboard
+- ✅ Add / View / Search Books
+- ✅ Issue & Return Books
+- ✅ Fine System (₹10/day late fee)
+- ✅ REST API with proper error handling
+
+## 📱 Flutter Screens
+
+- Login & Signup Screen
+- Role-based Dashboard
+- Book List & Detail Screen
+- Add Book Screen (Admin only)
+- Issue / Return Book
+
+## 🚀 How to Run
+
+### Backend
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+### Flutter App
+```bash
+cd flutter_application_1
+flutter pub get
+flutter run
+```
+
+## 👨‍💻 Developer
+
+- **Name:** Ram Gavade
+- **College:** VIT Pune
+- **Branch:** Computer Engineering
